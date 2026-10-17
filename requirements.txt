@@ -1,0 +1,56 @@
+
+# LLM Runtime
+ollama
+
+# Agent Orchestration
+langgraph
+langchain-core
+
+# API Server
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# Async HTTP Requests
+httpx
+aiofiles
+
+# Environment Configuration
+python-dotenv
+
+# Data Validation and Serialization
+orjson
+
+# Logging
+structlog
+
+# Retry and Resilience
+tenacity
+
+# Token Counting
+tiktoken
+
+# Web Search
+ddgs
+
+# Database Support
+sqlalchemy
+aiosqlite
+psycopg[binary]
+pymysql
+
+# Vector Search / Embeddings
+sentence-transformers
+qdrant-client
+
+# File and Document Processing
+pypdf
+python-docx
+beautifulsoup4
+lxml
+
+# Testing
+pytest
+pytest-asyncio
+httpx
