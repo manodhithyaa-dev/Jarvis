@@ -1,0 +1,117 @@
+
+# ==========================================
+# JARVIS - Python AI Agent Project
+# ==========================================
+
+# ---- Python virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Python cache and compiled files ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# ---- Test and coverage artifacts ----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+test-results/
+coverage.xml
+
+# ---- Secrets and environment variables ----
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ---- Logs and temporary files ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ---- IDE and editor files ----
+.vscode/
+.idea/
+*.iml
+
+# ---- OS-generated files ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- Build and packaging artifacts ----
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# ---- Jupyter notebook checkpoints ----
+.ipynb_checkpoints/
+
+# ---- Local databases and database journals ----
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sqlite-shm
+*.sqlite-wal
+
+# ---- Generated model files and large weights ----
+*.gguf
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# ---- Generated media and temporary exports ----
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+*.mp3
+*.flac
+*.webm
+
+# ---- Generated output (keep folder structure) ----
+# Ignore generated output contents, but retain initial examples.
+output/*
+!output/.gitkeep
+!output/Inital/
+output/Inital/*
+!output/Inital/chat.txt
+
+# ---- Local machine and runtime state ----
+*.pid
+*.sock
+.DS_Store
+
+# ==========================================
+# Explicitly KEEP under version control:
+# agents/
+# config/
+# documents/
+# knowledgeBase/
+# memory/
+# skills/
+# specializedAgents/
+# tools/
+# requirements.txt
+# ==========================================
